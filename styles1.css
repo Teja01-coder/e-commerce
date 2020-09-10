@@ -1,0 +1,158 @@
+a{
+  font-weight: bold;
+}
+
+.nav1{
+  background-color: #4e89ae;
+  text-align: center;
+}
+.logo{
+  height: auto;
+  width:5%;
+}
+@media only screen and (max-width: 430px)  {
+.logo{
+  height: auto;
+  width:15%;
+}
+
+
+}
+.name{
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: 2rem;
+}
+.button1{
+  background-color:#4e89ae;
+  font-weight: bolder;
+}
+.button2:hover{
+    background-color: #43658b;
+}
+.button1:hover{
+  background-color: #43658b;
+}
+.search:hover{
+  border-color: #43658b;
+  border-width: medium;
+}
+.supplies{
+  text-align: center;
+  padding-top: 40px;
+  font-family: cursive;
+}
+.our-story{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: cursive;
+
+
+}
+.story{
+  padding: 30px 20% 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+.male{
+  float: right;
+  height: 25%;
+  width: 50%;
+}
+.male2{
+  float:left;
+  height: 25%;
+  width: 50%;
+}
+
+@media screen and (min-width: 1000px) {
+  .male{
+    float: right;
+    height: auto;
+    width: 20%;
+  }
+  .male2{
+    float: left;
+    height: auto;
+    width: 20%;
+  }
+}
+
+.con{
+  background-color: #99f3bd;
+}
+
+.con2{
+  background-color: #d2f6c5;
+}
+.con3{
+  background-image:url(world.jpg);
+  background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.a1{
+ margin: 0;
+ padding-bottom: 30px;
+ padding-top: 30px;
+}
+.chef{
+  border-radius: 50%;
+}
+.b1{
+  text-align: center;
+}
+.c1{
+  background-color: rgba(245, 245, 245, 0.2);
+}
+
+.c1:hover{
+  background-color:  rgba(245, 245, 245, 0.4);
+}
+
+.footer{
+  text-align: center;
+  font-style: italic;
+  font-family:monospace;
+  font-weight: 3px;
+  background-color: #056674;
+color: #86c4ba;
+padding: 10px;
+}
+.food{
+
+
+  border-color: #fff;
+  text-align: center;
+  background-color: #eff48e;
+  padding:18px;
+
+}
+.a-1{
+  margin: 0;
+  background-color: #eff48e;
+}
+.hidden{
+  background-color: #fddb3a;
+  padding: 15px;
+  visibility: hidden;
+  color: #000;
+}
+.food:hover .hidden{
+  visibility: visible;
+  opacity:0.7;
+
+}
+.a2{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.border1{
+  background-color: #6e6d6d;
+}
